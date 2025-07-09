@@ -129,4 +129,9 @@ public class FileUtil {
         }
         return flag;
     }
+    public static void deleteFile(File file){
+    if(file.exists()){
+        file.delete();
+    }
+}
 }

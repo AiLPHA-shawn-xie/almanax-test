@@ -12,6 +12,16 @@ public class DemoApplication {
 	String home() {
 		return "Spring is here!";
 	}
+	
+	@GetMapping("/a")
+	String home() {
+		return "Spring is here!";
+	}
+	@GetMapping("/b")
+	String home() {
+		return "Spring is here!";
+	}
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
